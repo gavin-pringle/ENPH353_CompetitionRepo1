@@ -71,7 +71,7 @@ class Window(QtWidgets.QMainWindow):
         self.message_received_signal.connect(self.SLOT_message_received)
 
         # Set-up ROS subscribers
-        self.sub_license_plate = rospy.Subscriber("license_plate", String, 
+        self.sub_license_plate = rospy.Subscriber("/license_plate", String, 
                                                   self.licensePlate_callback)
         self.sub_cmd_vel = rospy.Subscriber("/R1/cmd_vel", Twist,
                                             self.cmd_vel_callback)
