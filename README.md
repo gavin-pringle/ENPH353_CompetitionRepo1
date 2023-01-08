@@ -1,3 +1,5 @@
+*The following README was written by ENPH 353 instructor Miti Isbasescu*
+
 # 2022 UBC Parking competition
 
 The repository contains the following ROS packages:
